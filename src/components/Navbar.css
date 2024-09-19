@@ -1,0 +1,88 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  z-index: 1000;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: purple; /* Change link color to purple */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color:blueviolet;
+  color: rgb(211, 190, 231);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color:blueviolet;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .nav-links {
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar height */
+    right: 0;
+    background:rgb(211, 190, 231); /* Slightly transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color:blueviolet;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

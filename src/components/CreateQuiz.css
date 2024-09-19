@@ -1,0 +1,77 @@
+/* CreateQuiz.css */
+#card {
+    background-image: url('../assets/peakpx.jpg');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  #jj{
+    background-color: #e7d2f3;
+    height: 100vh;
+  }
+  textarea, input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #AD49E1;
+    color: #e7d2f3;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #aa00ff;
+    cursor: pointer;
+    color: #e7d2f3;
+    font-weight: bolder;
+  }
+  
+  h1 {
+    color: #AD49E1;
+  }
+  
+  /* Toastify Styles */
+  .Toastify__toast {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Toastify__toast--success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  h5{
+    color: #6b6170;
+    font-weight: bolder;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .card {
+      padding: 10px;
+    }
+  
+    textarea, input, select {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

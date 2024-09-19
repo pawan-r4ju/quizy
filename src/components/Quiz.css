@@ -1,0 +1,115 @@
+/* Quiz.css */
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EBD3F8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto; /* Center the card and add some space around it */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+  }
+  .card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .answer-section button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #AD49E1;
+    color: #e7d2f3;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .answer-section button:hover {
+    background-color: #aa00ff;
+    font-weight: bolder;
+  }
+  
+  .next-button, .retry-button, .quit-button, .skip-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #AD49E1;
+    color: #e7d2f3;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .next-button:hover, .retry-button:hover, .quit-button:hover, .skip-button:hover {
+    background-color: #aa00ff;
+    color: rgb(26, 6, 6);
+  }
+  
+  .score-section {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .score-details {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .timer {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #AD49E1;
+  }
+  
+  h1 {
+    color: #AD49E1;
+  }
+  
+  #op {
+    width: 100%;
+    background-color: #e7d2f3;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 600px) {
+    .card, .answer-section button, .next-button, .retry-button, .quit-button, .skip-button {
+      max-width: 500px;
+    }
+  }
+  
