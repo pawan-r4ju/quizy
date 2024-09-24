@@ -7,7 +7,7 @@
 
 
 ```link
-https://quizy-lyart.vercel.app/
+https://quizy-ochre.vercel.app/
 ```
 
 ## Features
