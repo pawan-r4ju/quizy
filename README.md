@@ -12,7 +12,6 @@ https://quizy-ochre.vercel.app/
 
 ## Features
 
-
 1 Create Quizzes:
 
 2 Take Quizzes:
