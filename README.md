@@ -42,8 +42,6 @@ npx json-server --watch db.json
 ```
 
 
-
-
 ## Deployment
 it is deployed on the vercel and server is deployed on the render
 
